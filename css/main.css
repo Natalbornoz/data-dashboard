@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  background-color: #FFC107;
+  background-color: #DCDCDC;
   font-family: 'Source Sans Pro', sans-serif;
 
 
@@ -36,8 +36,17 @@ img {
 }
 
 #user, #password {
-  background-color: #F7F7F7;
+  background-color: #DCDCDC;
   border: none;
+  padding-right: 30px;
+}
+
+.texto-boton{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #ingresar {
@@ -45,7 +54,8 @@ img {
   border-radius: 10px;
   padding: 10px;
   border: none;
-  margin-left: 80px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 footer {

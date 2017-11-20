@@ -7,10 +7,72 @@
 }
 
 body {
-  background: #f7b617;
+  background: #DCDCDC;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 18px;
 }
+
+header{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+nav{
+  width: 20%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.lab-logo{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bienvenida{
+  width: 100%;
+  height: auto;
+  background-color: #363636;
+
+}
+
+p{
+  text-align: right;
+  margin-right: 2%;
+  color: white;
+  margin-top: 0;
+}
+
+.name{
+  font-size: 30px;
+}
+
+.name span{
+  color: #F7B500;
+}
+
+.container{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contenedor-menu{
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+}
+
+.contenedor-foto{
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  float: right;
+}
+
+
 
 a {
   /* para quitar subrayado */
@@ -81,6 +143,10 @@ a {
 .contenedor-menu .menu .activado>a {
   background: #2B2B2B;
   color: #FFF;
+}
+
+.contenedor-foto{
+  float: right;
 }
 
 @media screen and (max-width: 450px) {

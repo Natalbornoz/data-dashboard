@@ -10,7 +10,7 @@ $(document).ready(function(){
       $('.menu li ul').slideUp();
       $('.menu li').removeClass('activado');
       $(this).addClass('activado');
-      $(this).children('ul').slideDown();
+      $(this).children('ul').slideDown ();
     }
   });
 });
