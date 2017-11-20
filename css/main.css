@@ -1,3 +1,55 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  margin: auto;
+  background-color: #FFC107;
+  font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+#invitacion-login {
+  /*border: 2px solid red;*/
+  color: #FFFFFF;
+
+/* paracentrar */
+ width: auto;
+ margin: 0 auto;
+ /* para posicionar mas abajo*/
+ padding-top: 20px;
+ text-align: center;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+#caja-login {
+  /*border: 2px solid red;*/
+  align-items: center;
+  background-color: #FFFFFF;
+  padding:70px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+
+  /* paracentrar */
+   width: 200px;
+   margin: 0 auto;
+}
+
+#user, #password {
+  background-color: #F7F7F7;
+  border: none;
+}
+
+#ingresar {
+  background-color: #F7B617;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-left: 80px;
+}
+
+footer {
+  /* paracentrar */
+   width: 200px;
+   margin: 0 auto;
+}
