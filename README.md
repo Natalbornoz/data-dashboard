@@ -6,20 +6,16 @@
 
 ***
 
-## Flujo de trabajo
+## Objetivo 
+Crear un sitio web de mediana complejidad que funcione como dashboard, en donde las Training Managers de Laboratoria puedan tener acceso rápido a datos importantes como el número de alumnas inscritas, su porcentaje de logro en Sprints y la aprobación que profesores y Jedi Masters tienen por parte del alumnado.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+__Desglose de la página:__
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+El maqueteado de la página del Dashboard de Laboratoria que realizamos consta de los siguientes elementos:
 
-3. Cuando hayas terminado tu producto, envía un Pull Request a este repositorio
-   (puedes solicitar apoyo de tus profes para este paso).
+1. __Log-in:__ La primera página que se muestra tiene un formulario en donde se le pide el nombre de usuario y contraseña a la Training Manager, esto con el objetivo de resguardar la información. En este caso el formulario no está validado, por lo tanto se pueden ingresar los datos que sean, pero al hacer clic en el botón de ingreso sí se podrá llegar al menú de opciones.
 
-> Nota: No olvides que es una buena práctica describir tu proyecto en este
-> archivo `README.md` y también desplegar tu web a Github Pages :smiley:.
+2. __Menu:__ En el Menú es posible acceder a las sedes, años y generaciones disponibles. La página solo es funcional con los datos de sede Santiago, año 2017, generación II
+
+3. __Dashboard:__ En el dashboard se encuentra la información general, los perfiles de las estudiantes y la información respecto a profesores y Jedi Masters. 
