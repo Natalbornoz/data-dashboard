@@ -8,7 +8,7 @@
 
 body {
   background: #DCDCDC;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   line-height: 18px;
 }
 
@@ -16,6 +16,7 @@ header{
   width: 100%;
   height: auto;
   margin: 0 auto;
+  background-color: white;
 }
 
 nav{
@@ -42,37 +43,45 @@ p{
   margin-right: 2%;
   color: white;
   margin-top: 0;
+  line-height: normal;
 }
 
 .name{
   font-size: 30px;
+  margin-bottom: 0;
 }
 
 .name span{
   color: #F7B500;
 }
-
 .container{
   width: 80%;
   height: auto;
-  margin: 0 auto;
+  margin-left: 10%;
+  display: inline-block;
 }
 
 .contenedor-menu{
   width: 40%;
   height: auto;
-  margin: 0 auto;
+  margin-top: 4%;
+  margin-bottom: 0;
   float: left;
 }
 
 .contenedor-foto{
-  width: 40%;
+  width: 35%;
   height: auto;
   margin: 0 auto;
+  margin-top: 4%;
   float: right;
 }
 
-
+.contenedor-foto img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
 a {
   /* para quitar subrayado */
@@ -96,7 +105,8 @@ a {
   min-width: 300px;
   margin: 50px;
   display: inline-block;
-  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
   line-height: 18px;
 }
 
@@ -163,4 +173,37 @@ a {
   .contenedor-menu .menu {
     display: none;
   }
+}
+
+button{
+  background-color: #F7B617;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-left: 43%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.texto-boton{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.copyright{
+  background-color: #363636;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
 }

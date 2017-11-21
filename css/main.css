@@ -1,7 +1,7 @@
 body {
   margin: auto;
   background-color: #DCDCDC;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 
 }
@@ -26,9 +26,9 @@ img {
   /*border: 2px solid red;*/
   align-items: center;
   background-color: #FFFFFF;
-  padding:70px;
-  margin-bottom: 80px;
+  padding: 70px;
   border-radius: 10px;
+  margin-bottom: 5%;
 
   /* paracentrar */
    width: 200px;
@@ -46,7 +46,7 @@ img {
   color: black;
   font-weight: bold;
   font-size: 16px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 #ingresar {
@@ -58,8 +58,17 @@ img {
   margin-top: 20px;
 }
 
-footer {
-  /* paracentrar */
-   width: 200px;
-   margin: 0 auto;
+footer{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.copyright{
+  background-color: #363636;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+  color: white;
 }

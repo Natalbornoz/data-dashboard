@@ -12,7 +12,7 @@ header{
 	background-color: white;
 }
 
-nav{
+.cont-img{
 	width: 20%;
 	height: auto;
 	margin: 0 auto;
@@ -42,6 +42,7 @@ p{
 
 .name{
 	font-size: 30px;
+	margin-bottom: 0;
 }
 
 .name span{
@@ -123,6 +124,20 @@ transition: all linear 0.1s;
 	-ms-transition: all ease-out 0.2s 0.1s;
 }
 
-#chart_div{
-	z-index: 900;
+footer{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.copyright{
+  background-color: #363636;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+}
+
+.img-alumna{
+	margin-top: 11%;
+    margin-left: 35%;
 }

@@ -2,29 +2,33 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-	<link rel="stylesheet" href="preliminar.css">
+	<link rel="stylesheet" href="dashboard.css">
+    <link rel="shortcut icon" href="labico.ico">
 	<title>Ejemplo Dashboard</title>
 </head>
 <body>
 	<header>
-		<nav><img src="logo_laboratoria-09.svg" alt="" class="lab-logo"></nav>
+		<nav>
+            <div class="cont-img">
+            <img src="logo_laboratoria-09.svg" alt="" class="lab-logo">
+            </div>
+        </nav>
 	</header>
 	<section class="bienvenida">
 		<p class="name"><span><</span>Bienvenida, Valentina<span>></span></p>
 		<p class="results"> Estás viendo los resultados de (país) (año) (generación)</p>
 	</section>
 	<div id="contenedor">
-    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
-    <label for="tab-1" class="tab-label-1">OVERVIEW</label>
+        <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
+        <label for="tab-1" class="tab-label-1">OVERVIEW</label>
     
-    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
-    <label for="tab-2" class="tab-label-2">PERFIL ALUMNA</label>
+        <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+        <label for="tab-2" class="tab-label-2">PERFIL ALUMNA</label>
     
-    <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
-    <label for="tab-3" class="tab-label-3">PROFESORES & JEDI MASTERS</label>
+        <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+        <label for="tab-3" class="tab-label-3">PROFESORES & JEDI MASTERS</label>
                             
     <div class="content">
         <div class="content-1">
@@ -33,13 +37,18 @@
         	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sunt inventore, dolorum voluptate quis accusantium dicta, perspiciatis excepturi omnis. Perferendis at, quas debitis iure alias nemo natus dolorum excepturi dicta!
         </div>
         <div class="content-2">
-            Contenido2
+            <img src="assets/images/alumnas-01.png" alt="" class="img-alumna">
         </div>
         <div class="content-3">
             Contenido3
         </div>
     </div>
 </div>
+
+    <footer>
+        <p class="copyright">Copyright 🍮 Giga Pudding 2017</p>
+    </footer>
+
 <script src="preliminar.js"></script>
 
 </body>

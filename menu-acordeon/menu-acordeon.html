@@ -5,27 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Data Dashboard</title>
-    <link rel="shortcut icon" href="assets/images/labico.ico">
+    <link rel="shortcut icon" href="assets/labico.ico">
     <script src="https://use.fontawesome.com/55ab0f4c6e.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+    <link rel="stylesheet" href="./css/menu-acordeon.css">
   </head>
 
   <body>
     <header>
       <nav>
-        <img src="assets/logo_laboratoria-09.svg" alt="" class="lab-logo">
+        <div class="cont-img">
+          <img src="assets/logo_laboratoria-09.svg" alt="" class="lab-logo">
+        </div>
       </nav>
     </header>
+
     <div class="bienvenida">
       <p class="name"><span><</span>Bienvenida, Valentina<span>></span></p>
-    <p class="results">Por favor, selecciona la sede, año y generación que deseas visualizar</p>
+      <p class="results">Por favor, selecciona la sede, año y generación que deseas visualizar</p>
     </div>
+
     <div class="container">
-    <div class="contenedor-menu">
-
-      <a href="#" class="btn-menu">Menu<i class="icono" class="fa fa-bars" aria-hidden="true"></i></a>
-
+      <div class="contenedor-menu">
+        <a href="#" class="btn-menu">Menu<i class="icono" class="fa fa-bars" aria-hidden="true"></i></a>
       <div class="menu">
         <ul>
           <li class="activado"><a href="#">AREQUIPA<i class="iconoizquierdo fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -48,7 +50,6 @@
               <li><a href="">2017 - II</a></li>
             </ul>
           </li>
-
           <li class="activado"><a href="#">LIMA<i class="iconoizquierdo fa fa-chevron-down" aria-hidden="true"></i></a>
             <ul>
               <li><a href="">2015 - I</a></li>
@@ -72,14 +73,16 @@
         </ul>
       </div>
     </div>
-    </div>
     <div class="contenedor-foto">
       <img src="assets/mapapng__medium__medium.png" alt="">
     </div>
+    </div>
+    <button><a href="dashboard/dashboard.html" class="texto-boton">CARGAR DASHBOARD</a></button>
+    <footer>
+      <p class="copyright">Copyright 🍮 Giga Pudding 2017</p>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src = "js/main.js"></script>
-    </script>
+    <script src = "js/menu-acordeon.js"></script>
   </body>
-
 </html>
