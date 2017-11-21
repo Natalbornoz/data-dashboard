@@ -93,6 +93,20 @@ p{
 .name span{
   color: #F7B500;
 }
+
+.idiomas{
+  display: inline-block;
+  float: right;
+  margin-top: -4%;
+    margin-right: 19%;
+    color: #363636;
+}
+
+.idiomas a{
+  text-decoration: none;
+  color: #F7B500;
+}
+
 .container{
   width: 80%;
   height: auto;

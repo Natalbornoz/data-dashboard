@@ -178,6 +178,21 @@ h2{
 	margin-right: 6.5%;
 }
 
+.idiomas{
+	display: inline-block;
+	float: right;
+	margin-top: -4%;
+    margin-right: 19%;
+    color: #363636;
+}
+
+.idiomas a{
+	text-decoration: none;
+	color: #F7B500;
+}
+
+
+
 
 
 
