@@ -31,6 +31,45 @@ nav{
   margin: 0 auto;
 }
 
+.text-menu{
+  color: #F7B500;
+  float: left;
+  font-weight: bold;
+  margin-left: 8%;
+  margin-top: 3%;
+
+}
+
+.logout{
+  float: right;
+  margin-top: -5%;
+  margin-right: 8%;
+  border: none;
+  background-color: white;
+  padding: 1%;
+  color: #F7B500;
+  border: 1px solid #F7B500;
+  border-radius: 6px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.logout:hover{
+  float: right;
+  margin-top: -5%;
+  margin-right: 8%;
+  border: none;
+  background-color: #F7B500;
+  padding: 1%;
+  color: white;
+  border: 1px solid #F7B500;
+  border-radius: 6px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
 .bienvenida{
   width: 100%;
   height: auto;
